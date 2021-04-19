@@ -1,0 +1,12 @@
+.fa {
+    padding: 5px 0;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+}
+
+.fa:hover {
+    opacity: 0.7;
+  }
