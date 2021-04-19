@@ -11,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #dde8fc;
+  background-color: #d1dadd;
 }
 
 body::-webkit-scrollbar {
@@ -25,13 +25,13 @@ code {
 
 .container {
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 15px;
   max-width: 1280px;
 }
 
 p {
   line-length: 30px;
-  font-family: 'Nunito', sans-serif;;
+  font-family: 'Nunito', sans-serif;
 }
 
 h1,h2 {

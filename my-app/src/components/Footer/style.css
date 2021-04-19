@@ -1,5 +1,5 @@
 .fa {
-    padding: 5px 0;
+    padding: 30px 0;
     font-size: 30px;
     width: 50px;
     text-align: center;
@@ -8,5 +8,6 @@
 }
 
 .fa:hover {
-    opacity: 0.7;
+    opacity: 1;
+    color: rgb(54, 5, 54);
   }
