@@ -12,7 +12,7 @@ const Home = () => {
                     <p>I am Ilya Rachitsky</p>
                     <p>Front-end Developer</p>
                 </h1>
-                <Link to="about">
+                <Link to="/about">
                     <button>More Information</button>
                 </Link>
             </div>
