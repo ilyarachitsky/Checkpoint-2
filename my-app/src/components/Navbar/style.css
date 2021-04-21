@@ -31,7 +31,7 @@
   padding: 8px;
   position: absolute;
   border-radius: 0px;
-  background-color: rgb(229, 147, 229);
+  background-color: rgb(218, 138, 18);
   transition: all 0.5s ease-in-out;
 }
 
@@ -45,7 +45,7 @@
   text-align: center;
   position: absolute;
   transition: all 0.5s ease-in-out;
-  background-color: rgba(89, 0, 131, 0.8);
+  background-color: rgba(189, 123, 0, 0.8);
 }
 
 .list-wrapper ul li {
@@ -63,7 +63,7 @@
   transition: all 0.3s ease-in-out;
 }
 .list-wrapper ul li a:hover {
-  color: rgb(68, 0, 100);
+  color: rgb(192, 131, 0);
   background-color: white;
 }
 
@@ -94,7 +94,7 @@
   }
   .list-wrapper ul li a:hover {
     padding: 5px;
-    color: rgb(78, 21, 78);
+    color: rgb(177, 116, 2);
     transform: scale(0.8);
     background: transparent;
   }

@@ -14,6 +14,12 @@ const Navbar = () => {
     }
   };
 
+  const handleClose = () => {
+    if (screenWidth < 800) {
+      setOpen(false);
+    }
+  }
+
   useEffect (() => {
     trackScreenWidth();
     window.addEventListener("resize", trackScreenWidth);
@@ -53,19 +59,29 @@ const Navbar = () => {
           />
           <ul style={{ left: open ? "0" : "-100vw" }}>
             <li>
-              <Link to="/">Home</Link>
+              <Link 
+              onClick={handleClose}
+              to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link 
+              onClick={handleClose}
+              to="/about">About</Link>
             </li>
             <li>
-              <Link to="/skills">Skills</Link>
+              <Link
+              onClick={handleClose}
+              to="/skills">Skills</Link>
             </li>
             <li>
-              <Link to="/experience">Experience</Link>
+              <Link 
+              onClick={handleClose}
+              to="/experience">Experience</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link 
+              onClick={handleClose}
+              to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
